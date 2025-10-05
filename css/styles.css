@@ -19,7 +19,11 @@ a {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .navigation {
@@ -27,6 +31,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 24px 156px;
+  border: 1px solid #e7e9fc;
 }
 
 .nav-left {
@@ -39,7 +44,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.333;
   letter-spacing: 0.03em;
   font-style: bold;
   text-transform: uppercase;
@@ -59,10 +64,12 @@ a {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.333;
 }
 
 .address > li > a {
   color: #434455;
+  line-height: 1.333;
 }
 
 .links > li > a:hover,
@@ -222,6 +229,7 @@ a {
   height: 420px;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-detail {
@@ -232,9 +240,11 @@ a {
 }
 
 .footer {
+  width: 100%;
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 156px;
+  box-sizing: border-box;
 }
 
 .footer-detail > a > .logo {
